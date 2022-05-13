@@ -4,5 +4,4 @@ node_modules
 /package
 /.idea
 /build
-auth_config.js
 desktop.ini
