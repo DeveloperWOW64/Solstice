@@ -2,14 +2,13 @@
 	import { externalLink, PageSection } from "$lib";
 	import { Button } from "fluent-svelte";
 	import { links } from "$data/links";
-	import Code from "@fluentui/svg-icons/icons/code_24_regular.svg?raw";
-	import Folder from "@fluentui/svg-icons/icons/folder_24_regular.svg?raw";
+	import Play from "@fluentui/svg-icons/icons/play_24_regular.svg?raw";
+	import List from "@fluentui/svg-icons/icons/list_24_regular.svg?raw";
 
 </script>
 
 <PageSection id="hero-section">
 	<div class="hero-left">
-		<h1>Hi!👋</h1>
 		<p>I'm a developer from the UK.</p>
 		<div class="buttons-spacer">
 			<Button
@@ -17,20 +16,18 @@
 				href="https://github.com/{links.github.owner}/?tab=repositories"
 				{...externalLink}
 			>
-				{@html Code}
+				{@html Play}
 				<div class="hero-button-inner">
-					<h5>GitHub</h5>
-					<span>Take a look at my repositories!</span>
+					<h5>Play</h5>
 				</div>
 			</Button>
 			<Button
 				href="https://github.com/files-community"
 				{...externalLink}
 			>
-				{@html Folder}
+				{@html List}
 				<div class="hero-button-inner">
-					<h5>Files</h5>
-					<span>An awesome project, take a look!</span>
+					<h5>Watch Later</h5>
 				</div>
 			</Button>
 		</div>
@@ -45,6 +42,12 @@
 				<source
 					media="(prefers-color-scheme: light)"
 					srcset="/screenshots/hero-light.png"
+				>
+				<img
+					alt="Files new tab screenshot"
+					height="768"
+					src="/screenshots/hero-light.png"
+					width="1024"
 				>
 			</picture>
 		</div>

@@ -42,18 +42,22 @@
 		}
 	];
 
-	const navbarButtons = [
+	let navbarButtons = [
 		{
-			label: "Discord",
-			href: `https://discord.gg/${ discord }`,
-			icon: Chat
-		},
-		{
-			label: "GitHub",
+			label: "Code",
 			href: `https://github.com/${ github.owner }`,
 			icon: Code
 		}
 	];
+
+	if (dev) {
+		navbarButtons.push({
+			label: "test",
+			href: "/test",
+			icon: Code
+		});
+		navbarButtons = navbarButtons;
+	}
 
 	let theme: "light" | "dark" = "light";
 

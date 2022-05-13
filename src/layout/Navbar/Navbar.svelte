@@ -3,7 +3,7 @@
 	import type { NavbarItem } from "$data/links";
 
 	import { externalLink, TreeView } from "$lib";
-	import { ListItem, Tooltip } from "fluent-svelte";
+	import { TextBlock, ListItem, Tooltip } from "fluent-svelte";
 	import Navigation from "@fluentui/svg-icons/icons/navigation_24_regular.svg?raw";
 	
 	export let items: NavbarItem[] = [];
@@ -57,7 +57,7 @@
 					width="32"
 				>
 			</picture>
-			Codrex
+			Fluentube
 		</a>
 	</nav>
 	<div class="buttons">

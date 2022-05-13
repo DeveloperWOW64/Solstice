@@ -1,7 +1,7 @@
 {
-	"name": "Codrex",
+	"name": "Fluentube",
 	"version": "1",
-	"repository": "https://github.com/developerwow64/developerweb64",
+	"repository": "https://github.com/developerwow64/fluentube",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
