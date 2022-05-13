@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { dev } from "$app/env";
 	import { navigating, page } from "$app/stores";
 	import type { NavbarItem } from "$data/links";
 
@@ -57,7 +58,8 @@
 					width="32"
 				>
 			</picture>
-			Fluentube
+			Solstice
+			<TextBlock variant="caption">PREVIEW</TextBlock>
 		</a>
 	</nav>
 	<div class="buttons">

@@ -1,7 +1,7 @@
 {
-	"name": "Fluentube",
+	"name": "Solstice",
 	"version": "1",
-	"repository": "https://github.com/developerwow64/fluentube",
+	"repository": "https://github.com/developerwow64/solstice",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",

@@ -13,8 +13,7 @@
 		<div class="buttons-spacer">
 			<Button
 				variant="accent"
-				href="https://github.com/{links.github.owner}/?tab=repositories"
-				{...externalLink}
+				href="/player/"
 			>
 				{@html Play}
 				<div class="hero-button-inner">
@@ -22,8 +21,7 @@
 				</div>
 			</Button>
 			<Button
-				href="https://github.com/files-community"
-				{...externalLink}
+				href="/lib/add.svelte?video="
 			>
 				{@html List}
 				<div class="hero-button-inner">
@@ -44,10 +42,8 @@
 					srcset="/screenshots/hero-light.png"
 				>
 				<img
-					alt="Files new tab screenshot"
-					height="768"
-					src="/screenshots/hero-light.png"
-					width="1024"
+					alt="HeroRecommendedVideo"
+					src="/screenshots/hero-dark.png"
 				>
 			</picture>
 		</div>

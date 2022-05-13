@@ -11,10 +11,10 @@
 
 	import Code from "@fluentui/svg-icons/icons/code_24_regular.svg?raw";
 	import Home from "@fluentui/svg-icons/icons/home_24_regular.svg?raw";
-	import Book from "@fluentui/svg-icons/icons/book_24_regular.svg?raw";
-	import News from "@fluentui/svg-icons/icons/news_24_regular.svg?raw";
+	import Trending from "@fluentui/svg-icons/icons/arrow_trending_24_regular.svg?raw";
+	import Library from "@fluentui/svg-icons/icons/library_24_regular.svg?raw";
 	import Person from "@fluentui/svg-icons/icons/person_24_regular.svg?raw";
-	import Chat from "@fluentui/svg-icons/icons/chat_24_regular.svg?raw";
+	import Settings from "@fluentui/svg-icons/icons/settings_24_regular.svg?raw";
 
 	const { github, discord } = links;
 
@@ -25,37 +25,34 @@
 			icon: Home
 		},
 		{
-			name: "Docs",
-			path: "/docs",
+			name: "Library",
+			path: "/acc/lib",
 			sidebarTree: docs,
-			icon: Book
+			icon: Library
 		},
 		{
-			name: "Blog",
-			path: "/blog",
-			icon: News
+			name: "Trending",
+			path: "/trends",
+			icon: Trending
 		},
-		{
-			name: "About",
-			path: "/about",
-			icon: Person
-		}
 	];
 
 	let navbarButtons = [
 		{
-			label: "Code",
-			href: `https://github.com/${ github.owner }`,
-			icon: Code
+			label: "Settings",
+			href: "/prefs",
+			icon: Settings
 		}
 	];
 
 	if (dev) {
-		navbarButtons.push({
-			label: "test",
-			href: "/test",
+		navbarButtons.push(
+		{
+			label: "Code",
+			href: "https://github.com/DeveloperWOW64/Solstice",
 			icon: Code
-		});
+		}
+		);
 		navbarButtons = navbarButtons;
 	}
 
@@ -72,7 +69,7 @@
 </script>
 
 <svelte:head>
-	<meta content="Codrex" name="og:site_name">
+	<meta content="Solstice" name="og:site_name">
 
 	<meta content="website" name="og:type">
 
@@ -82,7 +79,7 @@
 		type="image/svg+xml"
 	>
 	<meta
-		content="Tikka, Jupiter, DeveloperWOW64, Developer, Fluent, Svelte, Eclipse, computer, code, Codrex, Andrex, Python, XAML, Fluent-Svelte, Files, DeveloperWEB64, DeveloperDWNLD64, DownloadWEB64, "
+		content="Solstice, Tikka, Jupiter, DeveloperWOW64, Developer, Fluent, Svelte, Eclipse, computer, code, Codrex, Andrex, Python, XAML, Fluent-Svelte, Files, DeveloperWEB64, DeveloperDWNLD64, DownloadWEB64, "
 		name="keywords"
 	>
 
