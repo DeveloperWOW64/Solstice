@@ -86,5 +86,5 @@
 </PageSection>
 
 <style lang="scss">
-	@use "../src/styles/pages/blog";
+	@use "../src/styles/pages/trends.scss";
 </style>
