@@ -25,7 +25,7 @@
 
 <section class="error-page">
 	<ContentDialog open title="Uh Oh!">
-		Looks like something went wrong.t
+		Looks like something went wrong.
 		<br/>
 		<TextBlock variant="bodyStrong">
 			{error.message}
