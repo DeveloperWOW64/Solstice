@@ -9,7 +9,7 @@
 </script>
 
 <script lang="ts">
-	import { PageSection, HeaderChip, BlogCard, tilt, Metadata } from "$lib";
+	import { PageSection, HeaderChip, VideoCard, tilt, Metadata } from "$lib";
 	import { Button } from "fluent-svelte";
 
 	type Post = {
@@ -77,7 +77,7 @@
 	{#if posts.slice(1).length > 0}
 		<div class="blog-cards">
 			{#each posts.slice(1) as post}
-				<BlogCard path={post.path} {...post.metadata}/>
+				<VideoCard path={post.path} {...post.metadata}/>
 			{/each}
 		</div>
 	{:else}
