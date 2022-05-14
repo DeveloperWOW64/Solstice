@@ -25,15 +25,15 @@
 			icon: Home
 		},
 		{
+			name: "Trending",
+			path: "/trends",
+			icon: Trending
+		},
+		{
 			name: "Library",
 			path: "/acc/lib",
 			sidebarTree: docs,
 			icon: Library
-		},
-		{
-			name: "Trending",
-			path: "/trends",
-			icon: Trending
 		},
 	];
 

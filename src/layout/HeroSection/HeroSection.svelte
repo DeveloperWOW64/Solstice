@@ -2,6 +2,7 @@
 	import { externalLink, PageSection } from "$lib";
 	import { Button } from "fluent-svelte";
 	import { links } from "$data/links";
+	
 	import Play from "@fluentui/svg-icons/icons/play_24_regular.svg?raw";
 	import List from "@fluentui/svg-icons/icons/list_24_regular.svg?raw";
 

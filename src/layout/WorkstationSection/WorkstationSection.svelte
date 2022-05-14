@@ -3,27 +3,26 @@
 	import { externalLink, HeaderChip, PageSection } from "$lib";
 	import { Button, Flyout } from "fluent-svelte";
 
+	import Play from "@fluentui/svg-icons/icons/play_24_regular.svg?raw";
+	import List from "@fluentui/svg-icons/icons/list_24_regular.svg?raw";
+
 	let scrollY: number;
 </script>
 
 <svelte:window on:scroll={() => window.requestAnimationFrame(() => scrollY = window.scrollY )} />
 
 <PageSection id="design-section">
-	<HeaderChip>
-	<!-- svelte-ignore a11y-missing-attribute -->
-	<img src="https://img.icons8.com/fluency/workstation">
-	</HeaderChip>
-	<h2>DELL XPS 9300</h2>
+	<h2>Title</h2>
 	<p>
-		The clean, fast laptop I couldn't code without
+		Description
 	</p>
 	<div class="buttons-spacer">
 		<Button
 			href="https://dl.dell.com/topicspdf/xps-13-9300-laptop_reference-guide_en-us.pdf"
-			{...externalLink}
 			variant="accent"
 		>
-			Details
+		{@html Play}
+			Play
 		</Button>
 		<Flyout>
 			<Button>

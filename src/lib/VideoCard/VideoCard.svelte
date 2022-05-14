@@ -47,5 +47,5 @@
 	<slot />
 </a>
 
-<style lang="scss">@use "./BlogCard";
+<style lang="scss">@use "./VideoCard";
 </style>

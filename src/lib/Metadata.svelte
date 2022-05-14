@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 
-	export let title = "Codrex";
-	export let image = "";
+	export let title = "Solstice";
+	export let image = "/branding/logo.png";
 	$: imageFile = image.startsWith("/") ? image : `/branding/banner-${image}.png`
 </script>
 

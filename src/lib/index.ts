@@ -7,7 +7,7 @@ export { default as FeatureCard } from "./FeatureCard/FeatureCard.svelte";
 export { default as ColorSwatch } from "./ColorSwatch/ColorSwatch.svelte";
 export { default as TerminalCommand } from "./TerminalCommand/TerminalCommand.svelte";
 export { default as Titlebar } from "./Titlebar/Titlebar.svelte";
-export { default as BlogCard } from "./BlogCard/BlogCard.svelte";
+export { default as VideoCard } from "./VideoCard/VideoCard.svelte";
 export { default as Metadata } from "./Metadata.svelte";
 
 // Actions
