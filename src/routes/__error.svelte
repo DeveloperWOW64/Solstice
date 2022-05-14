@@ -26,15 +26,11 @@
 <section class="error-page">
 	<ContentDialog open title="Uh Oh!">
 		Looks like something went wrong.
-		If you'd like to report it, please contain the following error message:
 		<br/>
 		<TextBlock variant="bodyStrong">
 			{error.message}
 		</TextBlock>
 		<svelte:fragment slot="footer">
-		<Button variant="accent" href="https://github.com/files-community/Website/issues/new?assignees=&labels=bug&template=bug_report.yml">
-			Report
-		</Button>
 		<Button href="/">
 			Return Home
 		</Button>
