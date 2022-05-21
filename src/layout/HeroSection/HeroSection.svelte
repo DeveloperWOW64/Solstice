@@ -10,7 +10,8 @@
 
 <PageSection id="hero-section">
 	<div class="hero-left">
-		<p>I'm a developer from the UK.</p>
+		<h2>HeroRecommendedVideo.Title</h2>
+		<p>HeroRecommendedVideo.Description</p>
 		<div class="buttons-spacer">
 			<Button
 				variant="accent"
@@ -36,15 +37,12 @@
 			<picture>
 				<source
 					media="(prefers-color-scheme: dark)"
-					srcset="/screenshots/hero-dark.png"
 				>
 				<source
 					media="(prefers-color-scheme: light)"
-					srcset="/screenshots/hero-light.png"
 				>
 				<img
 					alt="HeroRecommendedVideo"
-					src="/screenshots/hero-dark.png"
 				>
 			</picture>
 		</div>
